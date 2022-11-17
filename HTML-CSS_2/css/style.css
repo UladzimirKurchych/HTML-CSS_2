@@ -23,5 +23,78 @@ body{
 	color: #fff;
 	font-size: 24px;
 	line-height: 28px;
+	font-family: Roboto Condensed, serif;
+	font-weight: 400;
+}
+
+.header{
+	height: 100vh;
+}
+
+.container{
+	padding: 0, 15px;
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+.header-top{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.logo{
+	margin-top: 32px;
+	margin-bottom: 29px;
+}
+
+.header-btn{
+	width: 60px;
+	height: 60px;
+	border: 1px solid #fff;
+	margin-top: 31px;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.25);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-btn div{
+	width: 36px;
+	height: 2px;
+	background-color: #fff;
+	margin: 5px 0;
+}
+
+.header-content__title{
+	margin-bottom: 40px;
 	font-family: Roboto, serif;
+	font-size: 96px;
+	line-height: 112px;
+	
+}
+
+.header-content__text{
+	width: 284px;
+	margin-bottom: 25px;
+	font-family: Roboto Condensed, serif;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.header-content__btn{
+	display: inline-block;
+	padding: 30px 62px;
+	border: 1px solid #FFFFFF;
+	background: rgba(255, 255, 255, 0.15);
+	font-weight: 700;
+	transition: all .5s;
+}
+.header-content__btn:hover{background: #770302;}
+
+.slider__item{
+	width: 100vh;
+	background-repeat: no-repeat;
 }
