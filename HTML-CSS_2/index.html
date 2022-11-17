@@ -4,10 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>HTML+CSS_2</title>
   </head>
   <body>
@@ -19,10 +23,11 @@
               ><img src="images/header/logotesla.png" width="240px" alt="logo"
             /></a>
           </div>
-          <div class="header-btn"></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div class="header-btn">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
         <div class="header-content">
           <h1 class="header-content__title">Roadster</h1>
@@ -34,7 +39,24 @@
         </div>
       </div>
     </header>
+    <section class="slider-top">
+      <div class="slider">
+        <div
+          class="slider__item"
+          style="background-image: url(images/header/slide1.jpg)"
+        ></div>
+        <div
+          class="slider__item"
+          style="background-image: url(images/header/slide2.jpg)"
+        ></div>
+        <div
+          class="slider__item"
+          style="background-image: url(images/header/slide3.jpg)"
+        ></div>
+      </div>
+    </section>
 
+    <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
     <!--атрибуты defer async-->
   </body>
