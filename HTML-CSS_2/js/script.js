@@ -1,1 +1,5 @@
-alert('You really want to watch it?');
+$(function(){
+ $('.slider').slick({
+
+ });
+});
