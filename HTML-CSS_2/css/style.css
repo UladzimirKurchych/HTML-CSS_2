@@ -100,12 +100,31 @@ body{
 .header-content__btn{
 	display: inline-block;
 	padding: 30px 62px;
+	margin-bottom: 90px;
 	border: 1px solid #FFFFFF;
 	background: rgba(255, 255, 255, 0.15);
 	font-weight: 700;
 	transition: all .5s;
 }
 .header-content__btn:hover{background: #770302;}
+
+.heder-content__btn-slide{
+	width: 84px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn-slide{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #0B0B0B;
+}
+
+.btn-slide:focus{
+	background-color: #fff;
+}
+
 
 .description__indicators{
 	width: 1073px;
@@ -147,3 +166,4 @@ align-items: flex-end;
 	width: 1200px;
 	height: 400px;
 }
+
