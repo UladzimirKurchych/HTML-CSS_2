@@ -165,6 +165,60 @@ align-items: flex-end;
 .description__video{
 	width: 1200px;
 	height: 400px;
+	margin: 0 auto;
 	margin-bottom: 100px;
 }
 
+.description__speed{
+	max-width: 1200px;
+	min-height: 900px;
+	margin: 0 auto;
+position: relative;
+}
+
+.description__speed-title-speed{
+	max-width: 570px;
+	color: #B70021;
+position: absolute;
+top: 0;
+left: 0;
+
+}
+
+.description__speed-text-speed{
+	width: 300px;
+position: absolute;
+top: 140px;
+left: 0;
+}
+
+.description__speed-image-speed{
+width: 500px;
+position: absolute;
+top: 0;
+right: 0;
+}
+
+.description__speed-title-benefits{
+	min-width: 570px;
+	color: #B70021;
+	text-align: right;
+position: absolute;
+bottom: 0;
+right: 0;
+}
+
+.description__speed-text-benefits{
+	width: 250px;
+position: absolute;
+top: 590px;
+left: 628px;
+
+}
+
+.description__speed-image-benefits{
+width: 500px;
+position: absolute;
+bottom: 0;
+left: 0;
+}
