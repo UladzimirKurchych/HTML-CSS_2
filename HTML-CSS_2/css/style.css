@@ -173,6 +173,7 @@ align-items: flex-end;
 	max-width: 1200px;
 	min-height: 900px;
 	margin: 0 auto;
+	margin-bottom: 100px;
 position: relative;
 }
 
@@ -221,4 +222,25 @@ width: 500px;
 position: absolute;
 bottom: 0;
 left: 0;
+}
+
+.description__design-image{
+	width: 1200px;
+	margin: 0 auto;
+margin-bottom: 100px;
+}
+
+.description__design-row{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.description__design-row-item-number{
+color: #B70021
+}
+
+.description__design-row-item-text{
+width: 450px;
+padding-top: 28px;
 }
