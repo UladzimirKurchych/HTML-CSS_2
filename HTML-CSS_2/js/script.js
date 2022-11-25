@@ -1,5 +1,1 @@
-$(function(){
- $('.slider').slick({
 
- });
-});
