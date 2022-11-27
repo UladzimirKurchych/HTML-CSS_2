@@ -33,14 +33,13 @@ body{
 	position: absolute;
 	z-index: 5;
 	background: rgba(0, 0, 0, 0.3);
-
 }
 
-.header__background-image{
-	width: 100vw;
+.slider__item{
 	height: 100vh;
-	background-image: url(/HTML-CSS_2/images/header/slide1.jpg);
+	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	margin-bottom: 105px;
 }
 
@@ -120,6 +119,7 @@ body{
 	font-size: 48px;
 	line-height: 56px;
 	font-weight: 700;
+	transition: all .5s;
 }
 
 .menu.active{
@@ -181,17 +181,6 @@ bottom: 1px;
 	width: 84px;
 	display: flex;
 	justify-content: space-between;
-}
-
-.btn-slide{
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	background-color: #0B0B0B;
-}
-
-.btn-slide:focus{
-	background-color: #fff;
 }
 
 
