@@ -8,8 +8,6 @@ $('.slider').slick({
 	autoplay: 3000
 });
 
-
-
 		$('.header-btn').on('click', function(){
 			$('.menu').addClass('active');
 		});
@@ -20,4 +18,3 @@ $('.slider').slick({
 
 		}); 
 });
-
